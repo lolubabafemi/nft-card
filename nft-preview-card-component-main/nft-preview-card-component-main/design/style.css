@@ -95,8 +95,23 @@ h2:hover {
 
 /* MEDIA QUERY  */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 600px) {
   .card {
-    width: 80%;
+    width: 50%;
   }
 }
+
+
+@media (min-width: 601px)and (max-width: 778px) {
+  .card {
+    width: 40%;
+  }
+}
+
+
+@media (min-width: 779px)and (max-width: 1024px) {
+  .card {
+    width: 30%;
+  }
+}
+
